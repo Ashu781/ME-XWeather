@@ -39,7 +39,7 @@ function App() {
    <input type="text" placeholder="Enter city name" ref={city} className="input"/>
    <button onClick={()=>{submit();setLoading(true);setSuccess(false)}} className="button">Search</button>
    </div>
-   {loading && <p style={{textAlign:"center",marginTop:"50px"}}>Loading data…</p>}
+   {loading && <p style={{textAlign:"center",marginTop:"50px"}}>Loading data...</p>}
    {success && 
    <div className="weather-cards">
      <div className="weather-card"> 
